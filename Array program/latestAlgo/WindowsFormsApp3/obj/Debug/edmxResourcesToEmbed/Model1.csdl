@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DboTrainsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TbStation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="DboTrainsEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TbStations" EntityType="Self.TbStation" />
+    <EntitySet Name="Tbdistances" EntityType="DboTrainsModel.Tbdistance" />
+  </EntityContainer>
+  <EntityType Name="Tbdistance">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="station1Id" Type="Int32" />
+    <Property Name="station2id" Type="Int32" />
+    <Property Name="distance" Type="Int32" />
+  </EntityType>
+</Schema>

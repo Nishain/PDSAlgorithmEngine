@@ -1,0 +1,75 @@
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Dark Matter\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojResolveAssemblyReference.cache
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.Cache
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\EntityFramework.dll
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\EntityFramework.xml
+C:\Users\Irosh\Desktop\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\EntityFramework.dll
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\EntityFramework.xml
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.Cache
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Nav.resources
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Distances.resources
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojResolveAssemblyReference.cache
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form11.resources
+C:\Users\Irosh\Desktop\pdsa\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\Nishain_2d_array_prim.Form1.resources
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\bin\Debug\EntityFramework.dll
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\bin\Debug\EntityFramework.xml
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Distances.resources
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\Nishain_2d_array_prim.Form1.resources
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form11.resources
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Nav.resources
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Dark Matter\source\repos\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\bin\Debug\EntityFramework.dll
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\bin\Debug\EntityFramework.xml
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Distances.resources
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\Nishain_2d_array_prim.Form1.resources
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form11.resources
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Nav.resources
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\bb\Desktop\PDSA TESTING GROUND\Array program\latestAlgo\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb

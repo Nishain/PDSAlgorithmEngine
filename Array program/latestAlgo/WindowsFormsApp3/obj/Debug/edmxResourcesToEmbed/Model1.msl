@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DboTrainsModelStoreContainer" CdmEntityContainer="DboTrainsEntities1">
+    <EntitySetMapping Name="TbStations">
+      <EntityTypeMapping TypeName="DboTrainsModel.TbStation">
+        <MappingFragment StoreEntitySet="TbStations">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbdistances">
+      <EntityTypeMapping TypeName="DboTrainsModel.Tbdistance">
+        <MappingFragment StoreEntitySet="Tbdistances">
+          <ScalarProperty Name="distance" ColumnName="distance" />
+          <ScalarProperty Name="station2id" ColumnName="station2id" />
+          <ScalarProperty Name="station1Id" ColumnName="station1Id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

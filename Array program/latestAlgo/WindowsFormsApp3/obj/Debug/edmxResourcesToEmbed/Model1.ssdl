@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DboTrainsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Tbdistances">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="station1Id" Type="int" />
+    <Property Name="station2id" Type="int" />
+    <Property Name="distance" Type="int" />
+  </EntityType>
+  <EntityType Name="TbStations">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="DboTrainsModelStoreContainer">
+    <EntitySet Name="Tbdistances" EntityType="Self.Tbdistances" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TbStations" EntityType="Self.TbStations" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
