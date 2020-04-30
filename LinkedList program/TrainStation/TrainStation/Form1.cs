@@ -104,7 +104,7 @@ namespace TrainStation
         }
         private void btn_search_sortest_Click(object sender, EventArgs e) // calculate the shortest path from dijiksar
         {
-            Stopwatch stopWatch = new Stopwatch();
+        	Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
             LinkedList<int[]> graph = new LinkedList<int[]>(); // data store as metrics 
             List<DataResult> dataResults = new List<DataResult>();
@@ -151,7 +151,7 @@ namespace TrainStation
                 int co = 0;
                 int[] arraypath = new int[list.Count]; //create array to store to shotest path from link list
                 int[] ditance = new int[list.Count]; // create an arra for store distance from link list
-                int index =-1; ;
+                ;
                 foreach (int[] ld in getdata)
                 {
 
@@ -165,14 +165,16 @@ namespace TrainStation
                     int stationname = -1; //add stationname index
                     string sname = " -> ";// add shortest path 
                     string ans = "yes"; // this using confirm in using first time
+                    int index = -1;
                     while (true)
                     {
+                        
 
-                        if (selectpath == arraypath[j] || stationname == 0)
+                        if (selectpath == index)
                         {
                             ans = "no";
                             DataResult dr = new DataResult(); //create detset object
-                            dr.Path = list[selectpath].Name + sname + list[j].Name;// asign the shortest path
+                            dr.Path =  sname + list[j].Name;// asign the shortest path
                             dr.Distance = ditance[j]; //asign the distance
                             dataResults.Add(dr);//add the object
                             //result = result + (list[selectpath].Name + sname + list[j].Name) + " = " + ditance[j] + "\n";
@@ -188,17 +190,18 @@ namespace TrainStation
                                 sid = list[arraypath[j]].id;
                             }
                             else {
-                                int temp = list[index].id;
-                                sid = list.FindIndex(a => a.id == temp);
+                                 sid = list[stationname].id;
+                                //sid = list.FindIndex(a => a.id == temp);
                             }
                             
                             index = list.FindIndex(a => a.id == sid);
                             stationname = arraypath[index];
-                            sname =   "->"+list[index].Name + " -> "+ sname;
+                            sname =   list[index].Name + " -> "+ sname;
                            
 
 
                         }
+                       // counter++;
                     }
 
                 }
