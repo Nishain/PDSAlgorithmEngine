@@ -217,7 +217,10 @@ namespace Nishain_2d_array_prim
             selectedStationContainer.Clear();
         }
 
-        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

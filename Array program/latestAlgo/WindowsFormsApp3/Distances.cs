@@ -70,7 +70,7 @@ namespace WindowsFormsApp3
         }
 
 
-        //show station
+        //show station distances
         public void showstation()
         {
             DboTrainsEntities1 entit = new DboTrainsEntities1();
@@ -89,43 +89,44 @@ namespace WindowsFormsApp3
                       });
             //convert to list
             var vv = cc.ToList();
-            var rowcount = cc.Count();
+            dgvdistances.DataSource = vv;
+            //var rowcount = cc.Count();
             //create array
-            string[,] arr = new string[rowcount, 4];
-            int index = 0;
-            //add database data to array
-            foreach (var val in vv)
-            {
-                arr[index, 0] = val.id.ToString();
-                arr[index, 1] = val.station1name;
-                arr[index, 2] = val.station2name;
-                arr[index, 3] = val.distances.ToString();
-                index++;
-            }
+            // string[,] arr = new string[rowcount, 4];
+            //int index = 0;
+            ////add database data to array
+            //foreach (var val in vv)
+            //{
+                //arr[index, 0] = val.id.ToString();
+               // arr[index, 1] = val.station1name;
+               // arr[index, 2] = val.station2name;
+               // arr[index, 3] = val.distances.ToString();
+                //index++;
+            //}
 
-            Stopwatch stopwatch = new Stopwatch();
+            //Stopwatch stopwatch = new Stopwatch();
 
-            stopwatch.Start();
-            Thread.Sleep(5000);
+            //stopwatch.Start();
+            //Thread.Sleep(5000);
             //retrive data from array
-            for (int i = 0; i < arr.GetLength(0); i++)
-            {
+            //for (int i = 0; i < arr.GetLength(0); i++)
+            //{
 
 
-                string[] row = new string[arr.GetLength(1)];
+               // string[] row = new string[arr.GetLength(1)];
 
-                for (int J = 0; J < arr.GetLength(1); J++)
-                {
-                    row[J] = arr[i, J];
-                }
+               // for (int J = 0; J < arr.GetLength(1); J++)
+               // {
+                    //row[J] = arr[i, J];
+                //}
 
-                dgvdistances.Rows.Add(row);
-            }
+                //dgvdistances.Rows.Add(row);
+           // }
 
-            stopwatch.Stop();
-            TimeSpan ts = stopwatch.Elapsed;
+           // stopwatch.Stop();
+            //TimeSpan ts = stopwatch.Elapsed;
             //show spending time
-            lblLoadEx.Text = " Data Load Time: " + stopwatch.ElapsedMilliseconds + " Ms";
+            //lblLoadEx.Text = " Data Load Time: " + stopwatch.ElapsedMilliseconds + " Ms";
         }
 
         //data save section
@@ -185,8 +186,7 @@ namespace WindowsFormsApp3
                 //show spending times
                 lblInsert.Text = " Data Insert Time: " + stopwatch.ElapsedMilliseconds + " Ms";
                 
-                dgvdistances.Rows.Clear();
-                showstation();
+               
 
 
 
@@ -245,8 +245,7 @@ namespace WindowsFormsApp3
                 //display spending time to update 
                 lblUp.Text = " Data Update Time: " + stopwatch.ElapsedMilliseconds + " Ms";
 
-                dgvdistances.Rows.Clear();
-                showstation();
+               
             }
             else
             {
@@ -299,11 +298,14 @@ namespace WindowsFormsApp3
             lbldeleteex.Text = " Data Delete Time: " + stopwatch.ElapsedMilliseconds + " Ms";
 
             txtdeleteid.Text = "";
-            dgvdistances.Rows.Clear();
+           
+
+
+        }
+
+        private void btnrefresh_Click(object sender, EventArgs e)
+        {
             showstation();
-
-
-
         }
     }
 }

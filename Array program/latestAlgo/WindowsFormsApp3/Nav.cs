@@ -29,7 +29,7 @@ namespace WindowsFormsApp3
             Stopwatch stopwatch = new Stopwatch();
 
             stopwatch.Start();
-            Thread.Sleep(5000);
+            
             //set value to array
             InsertArray[0] = stationName;
 
@@ -47,8 +47,8 @@ namespace WindowsFormsApp3
             //show spending times
             Lblinsert.Text = " Data Insert Time: " + stopwatch.ElapsedMilliseconds + " Ms";
             textBox1.Text="";
-            dgvstation.Rows.Clear();
-            showstation();
+          
+            
         }
 
         //data load section
@@ -66,41 +66,45 @@ namespace WindowsFormsApp3
                       });
 
             var vv = cc.ToList();
-            var rowcount = cc.Count();
+            dgvstation.DataSource = vv;
+            //var rowcount = cc.Count();
             //created array
-            string[,] arr = new string[rowcount, 2];
-            int index = 0;
+            //string[,] arr = new string[rowcount, 2];
+            //int index = 0;
             //load data to array from database when start the application
-            foreach (var val in vv)
-            {
-                arr[index, 0] = val.id.ToString();
-                arr[index, 1] = val.name;
-                index++;
-            }
+            //foreach (var val in vv)
+            //{
+            //arr[index, 0] = val.id.ToString();
+            // arr[index, 1] = val.name;
+            //index++;
+            //}
 
-            Stopwatch stopwatch = new Stopwatch();
+            //Stopwatch stopwatch = new Stopwatch();
 
-            stopwatch.Start();
-            Thread.Sleep(5000);
+            //stopwatch.Start();
+            //
             //display data in gridView from array
-            for (int i = 0; i<arr.GetLength(0);i++)
-            {
-                
-               
-                string [] row = new string [arr.GetLength(1)];
+            //for (int i = 0; i<arr.GetLength(0);i++)
+            //{
 
-                for (int J = 0; J < arr.GetLength(1); J++)
-                {
-                    row[J] = arr[i, J]; 
-                }
 
-                dgvstation.Rows.Add(row);
-            }
+            // string [] row = new string [arr.GetLength(1)];
 
-            stopwatch.Stop();
-            TimeSpan ts = stopwatch.Elapsed;
+            //for (int J = 0; J < arr.GetLength(1); J++)
+            //{
+            //row[J] = arr[i, J]; 
+            //}
+
+            //dgvstation.Rows.Add(row);
+            //}
+
+            //stopwatch.Stop();
+            //TimeSpan ts = stopwatch.Elapsed;
             // show data retrive time from array
-            lblshowtime.Text = " Data Load Time: "+ stopwatch.ElapsedMilliseconds+" Ms";
+            //lblshowtime.Text = " Data Load Time: "+ stopwatch.ElapsedMilliseconds+" Ms";
+
+            //dgvstation.Rows.Add(vv);
+            //vstation.DataBind();
         }
 
         private void Nav_Load(object sender, EventArgs e)
@@ -142,7 +146,7 @@ namespace WindowsFormsApp3
                 Stopwatch stopwatch = new Stopwatch();
 
                 stopwatch.Start();
-                Thread.Sleep(5000);
+               
                 //get data from array and update data
                 for (int J = 0; J < station.GetLength(0); J++)
                 {
@@ -157,8 +161,8 @@ namespace WindowsFormsApp3
                 // display spending time for update task
                 lblupex.Text = " Data Update Time: " + stopwatch.ElapsedMilliseconds + " Ms";
                 textBox1.Text = "";
-                dgvstation.Rows.Clear();
-                showstation();
+           
+              
 
 
             }
@@ -185,7 +189,7 @@ namespace WindowsFormsApp3
                 Stopwatch stopwatch = new Stopwatch();
 
                 stopwatch.Start();
-                Thread.Sleep(5000);
+                
                 //retrive data from array and delete data
                 for (int J = 0; J < DeleteArray.Length; J++)
                 {
@@ -205,11 +209,21 @@ namespace WindowsFormsApp3
                 lbldeex.Text = " Data Delete Time: " + stopwatch.ElapsedMilliseconds + " Ms";
 
                 textBox1.Text = "";
-                dgvstation.Rows.Clear();
-                showstation();
+              
+               
 
 
             }
+
+        }
+
+        private void btnrefresh_Click(object sender, EventArgs e)
+        {
+            showstation();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
